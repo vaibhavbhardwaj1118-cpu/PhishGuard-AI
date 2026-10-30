@@ -24,7 +24,18 @@ Public Kaggle "Phishing Email Detection" dataset (not included in this repo). Do
 
 Logistic Regression (1,2) was used in the app because it gives probabilities and easy word-level explanations.
 
-Test set results: (add your classification report and ROC-AUC here)
+Test set results (Logistic Regression, unigrams + bigrams, 12,312 held-out emails):
+
+| Class | Precision | Recall | F1 |
+|---|---|---|---|
+| Safe (0) | 0.9869 | 0.9820 | 0.9844 |
+| Phishing (1) | 0.9836 | 0.9880 | 0.9858 |
+
+Accuracy: 0.9851 | ROC-AUC: 0.9987
+
+These scores are measured on a random split of a single dataset. Performance on emails from other sources may be lower.
+
+![Confusion matrix](confusion_matrix.png)
 
 ## How to run
 1. Install libraries: `pip install -r requirements.txt`
