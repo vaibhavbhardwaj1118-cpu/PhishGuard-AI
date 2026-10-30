@@ -2,6 +2,12 @@
 
 An explainable phishing email detector built with NLP and machine learning. Paste an email into the web app and get a phishing risk estimate plus the words that influenced the decision.
 
+## App Screenshots
+
+![App input](screenshots/app_input.png)
+
+![App result](screenshots/app_result.png)
+
 ## Features
 - TF-IDF text features with unigrams and bigrams
 - Compared Naive Bayes, Logistic Regression and Linear SVM
