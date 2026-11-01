@@ -1,5 +1,7 @@
 # PhishGuard AI
 
+**Live demo:** https://phishguard-ai-gyad7ywvshtyznvk9pmndx.streamlit.app/
+
 An explainable phishing email detector built with NLP and machine learning. Paste an email into the web app and get a phishing risk estimate plus the words that influenced the decision.
 
 ## App Screenshots
